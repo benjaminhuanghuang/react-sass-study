@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './ChildComponent.scss';
+import './ChildComponentB.sass';
 
 class ChildComponent extends Component {
     render() {
         return (
-            <div className="ChildComponent">
-                <h2>Red Header</h2>
+            <div className="ChildComponentB">
+                <h2>Green Header</h2>
             </div>
         );
     }
